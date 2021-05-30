@@ -274,7 +274,9 @@ button.left.joydirection {
     color: #f8f1d7;
     font-weight: bold;
     font-size: 20px;
+    margin-top: -20px;
 }
+
 .readme1 {
     position: absolute;
     right: 0;
@@ -288,6 +290,7 @@ button.left.joydirection {
     color: #f8f1d7;
     font-weight: bold;
     font-size: 20px;
+    margin-top: -20px;
 }
 
 .screen {

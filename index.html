@@ -13,9 +13,9 @@
     <meta name="x5-fullscreen" content="true">
     <meta name="x5-page-mode" content="app">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>朋友圈在线小霸王游戏机，1秒找回童年（官网地址：games.coderstone.cn） | 微信公众号：程序猿石头</title>
-    <meta name="keywords" content="朋友圈在线小霸王游戏机，1秒找回童年 | 微信公众号：程序猿石头" />
-    <meta name="description" content="朋友圈在线小霸王游戏机，1秒找回童年 | 微信公众号：程序猿石头" />
+    <title>朋友圈在线小霸王游戏机| 微信搜索：程序猿石头</title>
+    <meta name="keywords" content="朋友圈在线小霸王游戏机| 微信公众号：程序猿石头" />
+    <meta name="description" content="朋友圈在线小霸王游戏机| 微信公众号：程序猿石头" />
     <link href="css/jsnes.css" rel="stylesheet" type="text/css" />
 <script>
 var _hmt = _hmt || [];
@@ -29,7 +29,7 @@ var _hmt = _hmt || [];
 </head>
 
 <body>
-      <audio style="display:none; height: 0" id="bg-music" preload="auto" src="bgm.mp3"></audio>
+    <audio style="display:none; height: 0" id="bg-music" preload="auto" src="bgm.mp3"></audio>
     <div class="main">
         <div class="panel">
             <div class="controller-area">
@@ -80,11 +80,13 @@ var _hmt = _hmt || [];
 	 $('.joy').click(function(){
 		 console.log("欢迎关注微信公众号：程序猿石头")
 	 })
-    //音乐自动播放
+
     $(document).ready(function () {
-        autoPlayMusic();
-        audioAutoPlay();
+        // 关闭背景音乐
+        //autoPlayMusic();
+        //audioAutoPlay();
     });
+
     function audioAutoPlay() {
         var audio = document.getElementById('bg-music');
         audio.play();
