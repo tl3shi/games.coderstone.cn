@@ -813,10 +813,11 @@ if (typeof jQuery !== 'undefined') {
       return UI;
     };
     $('.controller-area').append($(`<a href="${decodeURIComponent('http://www.tanglei.name/resources/wechat-tangleithu-tl3shi.png')}" target="_blank"><div class="joy">${decodeURIComponent('%E5%85%AC%E4%BC%97%E5%8F%B7')}<br><b>${decodeURIComponent('%E7%A8%8B%E5%BA%8F%E7%8C%BF%E7%9F%B3%E5%A4%B4')}</b></div></a>`));
-    var a1 = $(`<a href="${decodeURIComponent('http://www.tanglei.name/resources/codershitou-wechat.png')}" target="_blank" class="readme">${decodeURIComponent('%E6%BA%90%E7%A0%81')}</a>`)
+    var a1 = $(`<a href="${decodeURIComponent('http://www.tanglei.name/resources/codershitou-wechat.png')}" target="_blank" class="readme">${decodeURIComponent('%E6%8C%89%E9%94%AE%E8%AF%B4%E6%98%8E')}</a>`)
     $('.a1-container').append(a1)
 
-    var a2 = $(`<a href="${decodeURIComponent('')}" target="_blank" style="z-index: 10" class="readme1">${decodeURIComponent('%E6%8C%89%E9%94%AE%E8%AF%B4%E6%98%8E')}</a>`)
+    var a2 = $(`<a href="${decodeURIComponent('')}" target="_blank" style="z-index: 10" class="readme1">${decodeURIComponent('%E6%BA%90%E7%A0%81')}</a>`)
     $('.a2-container').append(a2)
+    
   })(jQuery);
 }
