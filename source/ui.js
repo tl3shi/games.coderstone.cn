@@ -28,7 +28,7 @@ JSNES.DummyUI = function (nes) {
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?3ba042271bcd2eee50573ceb9d54676d";
+  hm.src = "https://hm.baidu.com/hm.js?b808e2e7db12ad043dee13d43cefd3bb";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
