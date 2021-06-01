@@ -812,6 +812,7 @@ if (typeof jQuery !== 'undefined') {
 
       return UI;
     };
+
     $('.controller-area').append($(`<a href="${decodeURIComponent('https://mp.weixin.qq.com/s?__biz=MzI3OTUzMzcwNw==&mid=100010220&idx=1&sn=66a26d9db4cfa22f9d45e5d2d493fc19&chksm=6b44e9085c33601e935ef11fceda67261af273a5716de3deb28c1aa9e3585ddd10fefd984ebb#rd')}" target="_blank"><div class="joy">${decodeURIComponent('%E6%AC%A2%E8%BF%8E%E5%85%B3%E6%B3%A8')}<br><b>${decodeURIComponent('%E7%A8%8B%E5%BA%8F%E7%8C%BF%E7%9F%B3%E5%A4%B4')}</b></div></a>`));
     var a1 = $(`<a href="${decodeURIComponent('https://mp.weixin.qq.com/s/htIG_7LPt0z2viDCe56mzA')}" target="_blank" class="readme">${decodeURIComponent('%E8%AF%B4%E6%98%8E%E4%B9%A6')}</a>`)
     $('.a1-container').append(a1)
