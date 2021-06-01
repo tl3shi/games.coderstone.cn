@@ -172,7 +172,7 @@ button.left.joydirection {
     user-select: none;
     margin: 10px;
     height: 24px;
-    width: 60px;
+    width: auto;
     outline: 0;
     border: 8px solid #474f51;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, .1), inset 4px 4px 0 0px rgba(255, 255, 255, .4);
@@ -364,7 +364,7 @@ button.left.joydirection {
         max-height: 300px;
     }
     .function button {
-        width: 56px;
+        width: auto;
         margin: 10px;
     }
     .action-area {
@@ -374,6 +374,15 @@ button.left.joydirection {
     .action button:first-child {
         margin-right: 20px
     }
+}
+
+button {
+    color: #f8f1d7 !important;
+}
+
+.function button {
+    margin: 0px;
+    height: 37px;
 }
 
 @media screen and (orientation: landscape) {

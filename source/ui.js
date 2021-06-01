@@ -24,6 +24,16 @@ JSNES.DummyUI = function (nes) {
   this.writeFrame = function () { };
 };
 
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3ba042271bcd2eee50573ceb9d54676d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
 if (typeof jQuery !== 'undefined') {
   (function ($) {
     $.fn.JSNESUI = function (roms) {
@@ -58,6 +68,7 @@ if (typeof jQuery !== 'undefined') {
          * ROM loading
          */
         self.romSelect.change(function () {
+          console.log("加个微信？---> codershitou，聊聊，跳槽么？");
           self.loadROM();
         });
 
@@ -65,6 +76,7 @@ if (typeof jQuery !== 'undefined') {
          * Buttons
          */
         self.buttons.pause.click(function () {
+          console.log("加个微信？--> codershitou，看机会么？");
           if (self.nes.isRunning) {
             self.nes.stop();
             self.updateStatus("Paused");
@@ -81,6 +93,7 @@ if (typeof jQuery !== 'undefined') {
         });
 
         self.buttons.sound.click(function () {
+          console.log("微信搜索：程序猿石头，回复【0】，有惊喜");
           if (self.nes.opts.emulateSound) {
             self.nes.opts.emulateSound = false;
             self.buttons.sound.attr("value", "打开声音");
@@ -444,7 +457,7 @@ if (typeof jQuery !== 'undefined') {
           e.preventDefault();
         });
         $('#joystick_btn_A').bind('touchstart', function (e) {
-          console.log("a");
+          console.log("A wechat: codershitou");
           self.nes.keyboard.keyDown({
             keyCode: 74
           });
@@ -457,7 +470,7 @@ if (typeof jQuery !== 'undefined') {
           e.preventDefault();
         });
         $('#joystick_btn_B').bind('touchstart', function (e) {
-          console.log("b");
+          console.log("B wechat: codershitou");
           self.nes.keyboard.keyDown({
             keyCode: 75
           });
@@ -812,6 +825,7 @@ if (typeof jQuery !== 'undefined') {
 
       return UI;
     };
+    // 改之前是不是最好能说一声？ ---> 微信：[codershitou] 多谢。
 
     $('.controller-area').append($(`<a href="${decodeURIComponent('https://mp.weixin.qq.com/s?__biz=MzI3OTUzMzcwNw==&mid=100010220&idx=1&sn=66a26d9db4cfa22f9d45e5d2d493fc19&chksm=6b44e9085c33601e935ef11fceda67261af273a5716de3deb28c1aa9e3585ddd10fefd984ebb#rd')}" target="_blank"><div class="joy">${decodeURIComponent('%E6%AC%A2%E8%BF%8E%E5%85%B3%E6%B3%A8')}<br><b>${decodeURIComponent('%E7%A8%8B%E5%BA%8F%E7%8C%BF%E7%9F%B3%E5%A4%B4')}</b></div></a>`));
     var a1 = $(`<a href="${decodeURIComponent('https://mp.weixin.qq.com/s/htIG_7LPt0z2viDCe56mzA')}" target="_blank" class="readme">${decodeURIComponent('%E8%AF%B4%E6%98%8E%E4%B9%A6')}</a>`)
