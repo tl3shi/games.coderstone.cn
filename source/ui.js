@@ -813,7 +813,7 @@ if (typeof jQuery !== 'undefined') {
       return UI;
     };
     $('.controller-area').append($(`<a href="${decodeURIComponent('https://mp.weixin.qq.com/s?__biz=MzI3OTUzMzcwNw==&mid=100010220&idx=1&sn=66a26d9db4cfa22f9d45e5d2d493fc19&chksm=6b44e9085c33601e935ef11fceda67261af273a5716de3deb28c1aa9e3585ddd10fefd984ebb#rd')}" target="_blank"><div class="joy">${decodeURIComponent('%E6%AC%A2%E8%BF%8E%E5%85%B3%E6%B3%A8')}<br><b>${decodeURIComponent('%E7%A8%8B%E5%BA%8F%E7%8C%BF%E7%9F%B3%E5%A4%B4')}</b></div></a>`));
-    var a1 = $(`<a href="${decodeURIComponent('http://mp.weixin.qq.com/s?__biz=MzI3OTUzMzcwNw==&mid=100010214&idx=1&sn=710ebde26783be9ca6f1f9041eead9bf&chksm=6b44e9025c3360143a1a4da2c6f0e29cfb2685394774daf45e0a301d0a8c81d112b521c5c2c7#rd')}" target="_blank" class="readme">${decodeURIComponent('%E8%AF%B4%E6%98%8E%E4%B9%A6')}</a>`)
+    var a1 = $(`<a href="${decodeURIComponent('https://mp.weixin.qq.com/s/htIG_7LPt0z2viDCe56mzA')}" target="_blank" class="readme">${decodeURIComponent('%E8%AF%B4%E6%98%8E%E4%B9%A6')}</a>`)
     $('.a1-container').append(a1)
 
     var a2 = $(`<a href="${decodeURIComponent('http://mp.weixin.qq.com/s?__biz=MzI3OTUzMzcwNw==&mid=100010231&idx=1&sn=a54203a0d715323b0a25a49fbdb9b40e&chksm=6b44e9135c3360053485dc69287208338a4d857f43d2eb8f3bd1a9e6e3b202709d54f562ce57#rd')}" target="_blank" style="z-index: 10" class="readme1">${decodeURIComponent('&nbsp;%E6%BA%90%E7%A0%81&nbsp;')}</a>`)
