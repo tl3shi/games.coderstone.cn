@@ -743,7 +743,7 @@ if (typeof jQuery !== 'undefined') {
 
         setRoms: function (roms) {
           this.romSelect.children().remove();
-          $("<option>点这里选择游戏...</option>").appendTo(this.romSelect);
+          $("<option>戳这里选择游戏...</option>").appendTo(this.romSelect);
           for (var groupName in roms) {
             if (roms.hasOwnProperty(groupName)) {
               var optgroup = $('<optgroup></optgroup>').
