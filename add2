@@ -38,3 +38,13 @@
 80	./.git/objects/00
 8	./.git/objects/02
 24	./.git/objects/03
+96	./.git/hooks
+8	./.git/info
+24	./.git/logs/refs/heads
+24	./.git/logs/refs/remotes/origin
+24	./.git/logs/refs/remotes
+48	./.git/logs/refs
+56	./.git/logs
+80	./.git/objects/00
+8	./.git/objects/02
+24	./.git/objects/03
